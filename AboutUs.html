@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link href="./mystyle.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./Home.html" style="margin: 20px">Home</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+    <img id="center" src="./star.jpeg" alt="" width="300" height="400" />
+    <p id="aboutUs">
+      At drama school, we are dedicated to providing students with the skills
+      and knowledge they need to succeed in the performing arts industry.<br />
+      <br />spaces Our experienced faculty, comprised of working professionals
+      in the field, offers a wide range of classes in acting, voice, and
+      movement.
+      <br />
+      <br />
+      We believe in a hands-on approach to learning, providing our students with
+      ample opportunities to perform in productions and showcase their talents.
+      <br />
+      <br />
+      With a strong emphasis on both technique and creativity, our students
+      graduate with the confidence and skills necessary to <br />
+      <br />
+      pursue their dreams of a career in the performing arts. Join our community
+      of artists and start your journey to becoming a true performer today.
+    </p>
+    <br />
+    <br />
+    <br />
+    <!--The form-data will be sent to a page on the server called "action_page.php".-->
+    <form action="action_page.php">
+      <div class="container1">
+        <h2>Subscribe to our Newsletter</h2>
+      </div>
+
+      <div class="container1" style="background-color: white">
+        <input type="text" placeholder="Name" name="name" required />
+        <input type="text" placeholder="Email address" name="mail" required />
+        <label>
+          <input type="checkbox" checked="checked" name="subscribe" /> Daily
+          Newsletter
+        </label>
+      </div>
+
+      <div class="container1">
+        <input type="submit" value="Subscribe" />
+      </div>
+    </form>
+  </body>
+</html>
